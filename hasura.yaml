@@ -1,0 +1,8 @@
+description: Serving a Middleman with Hasura. Middleman is a static site generator
+  using all the shortcuts and tools in modern web development.
+keywords: static site, nginx, middleman, blog
+media:
+  images:
+  - https://raw.githubusercontent.com/anirudhmurali/middleman-hello-world/master/middleman.png
+name: middleman-hello-world
+platformVersion: v0.15.3
