@@ -1,16 +1,15 @@
-# Serving a Jekyll Blog using Hasura
+# Serving a Middleman Blog using Hasura
 
-Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites written in Ruby. This Hub project allows you to deploy Jekyll on Hasura.
+Middleman is a static site generator using all the shortcuts and tools in modern web development.
 
 Follow the above steps to install the project.
 
-Inside `www/src/_posts`, you can find the blog posts in markdown format. Make changes to the blog post and push to the cluster to edit the existing post, you can also create new blog posts. The blog posts are of markdown format (.md).
+Inside `www/src/source`, you can find the static site as `index.html.erb`. Make changes to the page and push to the cluster to edit the webpage.
 
-Use the `Gemfile` to add Gems to your project. Use `_config.yml` to change the configuration of your blog. You can change the blog's meta name, description. Also you can change the theme of your site from there. Refer this to [change](https://jekyllrb.com/docs/themes/) the default theme.
+Use the `Gemfile` to add Gems to your project. Use the stylesheet in `stylesheet` folder to edit the style of your webpage, add scripts to the webpage by editing the `site.js` in `javascripts` folder.
 
 ## Resources:
 
-* [Jekyll](https://jekyllrb.com/)
-* [Jekyll Docs](https://jekyllrb.com/docs/home/)
+* [Middleman](https://middlemanapp.com/)
+* [Middleman Docs](https://middlemanapp.com/basics/install/)
 * [RubyGems](https://rubygems.org)
-* [Jekyll themes](http://themes.jekyllrc.org/)
